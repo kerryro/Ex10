@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>window</title>
+</head>
+<body>
+<h1>Создание нового окна</h1> <!--Заголовок 1 уровня-->
+<hr> <!--Горизонтальная линия-->
+
+<a href="#" onclick="openHelpWindow()">Щелкните на ссылке для получения справочной информации</a>
+<!--атрибут href указывает на якорь на текущей странице, а атрибут onclick вызывает ф-цию openHelpWindow при щелчке-->
+
+<script language="JavaScript" type="text/JavaScript">
+function openHelpWindow() {
+  window.open("http://www.google.com", "", "width=500, height=500, resizable=yes");//open открывает новое окно с указанными параметрами//название отсутствует//resizable разрешили изменение размера окна
+}
+</script>
+
+</body>
+</html>
